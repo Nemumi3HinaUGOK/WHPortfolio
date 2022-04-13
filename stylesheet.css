@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    min-width: 700px;
+    background-color: #9b72b0;
+    color: snow;
+
+}
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: #9b72b0;
+}
+
+nav ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+nav li {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+
+nav li a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: snow
+}
+/*参考　技術評論社　『HTML5＆CSS3デザインレシピ集』　狩野祐東著*/
+
+
+main {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main h2 {
+    font-size: 80px;
+    border-bottom: solid 8px;
+}
+
+
+
+.sikaku {
+    list-style-type: none !important;
+    list-style-type: circle;
+}
+
+.sikaku li {
+    list-style-type: circle;
+}
+
+
+.video {
+    border: solid snow 5px;
+    box-shadow: 0px 10px 10px 0px rgba(130, 72, 128, 0.5);
+    border-radius: 10%;
+}
+
+
+img.pic1 {
+    width: 400px;
+    height: auto;
+    border: solid snow 5px;
+    box-shadow: 0px 10px 10px 0px rgba(130, 72, 128, 0.5);
+    border-radius: 10%;
+}
+
+
+img.face {
+    width: 350px;
+    height: auto;
+    float: right;
+    margin:5% 5% 0px 0px;
+    border-radius: 20%;
+}
+
+.pro2 {
+    text-align: center;
+}
+
+.OTRM {
+    font-size: large;
+}
+
+.picbun {
+    font-size: large;
+}
+
+.proclear {
+    clear: both;
+    padding-bottom: 30px;
+}
+
+.oth2 {
+    width: 50px;
+    height: 50px;
+}
+
+.cen{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#pro {
+    color: #9b72b0;
+    background-color: snow;
+    font-size: larger;
+    padding-left: 2em;
+}
+
+#cre {
+    text-align: right;
+    color: snow;
+    background-color: #9b72b0;
+    padding-right: 2em;
+
+}
+
+#oth {
+    color: #9b72b0;
+    background-color: snow;
+    padding-left: 2em;
+}
+
+footer {
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: #9b72b0;
+}
+
+footer ul {
+    overflow: hidden;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1000px;
+}
+
+footer li {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+}
+
+footer li a {
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: snow
+}
+
+.chw {
+    text-align: center;
+    padding-top: 2em;
+    border-top: solid 1px;
+}
+
+
+nav a:link {
+    color: snow;
+    background-color: #9b72b0;
+}
+
+nav a:visited {
+    color: snow;
+    background-color: #9b72b0;
+}
+
+nav a:hover {
+    transition: 0.5s;
+    background-color: snow;
+    color: #9b72b0;
+    border-radius: 10px;
+}
+
+header a:link {
+    color: snow;
+
+}
+
+header a:visited {
+    color: snow;
+
+}
+
+header a:hover {
+
+    color: snow;
+}
+
+#oth a:link {
+    color: #9b72b0;
+
+}
+
+#oth a:visited {
+    color: #9b72b0;
+
+}
+
+#oth a:hover {
+    color: #9b72b0;
+}
+
+footer a:link {
+    color: snow;
+    background-color: #9b72b0;
+}
+
+footer a:visited {
+    color: snow;
+    background-color: #9b72b0;
+}
+
+footer a:hover {
+    transition: 0.5s;
+    background-color: snow;
+    color: #9b72b0;
+    border-radius: 10px;
+}
